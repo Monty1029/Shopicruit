@@ -38,7 +38,7 @@ public class Shopicruit {
 			}
 			
 			//Prints out the total cost of all lamps and wallets
-			System.out.println(cost);
+			System.out.println("$" + cost);
 
 		} catch (Exception e) {
 			e.printStackTrace();
