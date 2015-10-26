@@ -20,7 +20,7 @@ public class Shopicruit {
 				buffer.append(chars);
 			}
 			
-			//Converts the character array into a JSONArray
+			//Converts the buffer into a JSONArray
 			JSONArray products = new JSONObject(buffer.toString()).getJSONArray("products");
 
 			//Holds the total cost of lamps and wallets
